@@ -1,7 +1,7 @@
 # generate_capsid_COM_coordinate_array
 This very simple script generates a marker array of icosahedral capsid protein center of mass coordinates in the structural biology visualization platform ChimeraX. 
 
-This script requires only a recent chimeraX  installation and a pdb or mmcif protein coordinate file for the desired capsid assymetric unit model that can be symmetrised with icosahedral symmetrry.
+This script requires only a recent chimeraX  installation and a pdb or mmcif protein coordinate file for the desired capsid assymetric unit model that can be symmetrised with icosahedral symmetrry. No additional dependencies are required (including chimerax.core.commands, this is built into chimeraX).
 
 This python script must be modified as directed in comments within the script, and as outlined below. Prior to running this script, the user must generate an icosahedral symmetrised model of their target capsid pdb or mmcif file.
 
