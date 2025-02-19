@@ -28,6 +28,8 @@ Once this model has been generated, the use must then update the following field
 
 - chains: this is a list of the chain IDs present in the original model. For example, if a T=7 capsid model without decorations is being used with chains IDs set as "A,B,C,D,E,F,G" this list should have the value set as ["A","B","C","D","E","F","G"]
 
+To execute this script, simply open the script in the ChimeraX session that contains the relevant symmetrised capsid model. The marker set does not need to be peviously created, it will be automatically generated.
+
 A marker set should be quickly generated. This set can then be saved either through the File/save menu or using command line. 
 e.g. save center_of_mass_coordinate_array.cmm #100
 
